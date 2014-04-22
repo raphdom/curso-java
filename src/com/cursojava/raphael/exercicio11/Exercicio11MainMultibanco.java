@@ -14,10 +14,10 @@ public class Exercicio11MainMultibanco {
 		
 		Banco banco = new Banco();
 		
-		System.out.println("Bem vindo ao banco do Raphael, escolha uma op��o");
+		System.out.println("Bem vindo ao banco do Raphael, escolha uma opção");
 		int opcao = -1;
 		while (opcao != 0){
-			System.out.println("1-Criar conta | 2-Consutar saldo | 3-Consulta extrato | 4-Fazer levantamento | 5-Fazer dep�sito | 0-Sair");
+			System.out.println("1-Criar conta | 2-Consutar saldo | 3-Consulta extrato | 4-Fazer levantamento | 5-Fazer depósito | 0-Sair");
 			
 			opcao = scanner.nextInt();
 			
@@ -45,7 +45,7 @@ public class Exercicio11MainMultibanco {
 				int numeroConta = scanner.nextInt();
 				System.out.print("Digite o valor:");
 				double valor = scanner.nextDouble();
-				System.out.print("Digite a descri��o:");
+				System.out.print("Digite a descrição:");
 				String descricao = scanner.next();
 				banco.levantamento(numeroConta, valor, descricao);
 			}
@@ -55,7 +55,7 @@ public class Exercicio11MainMultibanco {
 				int numeroConta = scanner.nextInt();
 				System.out.print("Digite o valor:");
 				double valor = scanner.nextDouble();
-				System.out.print("Digite a descri��o:");
+				System.out.print("Digite a descrição:");
 				String descricao = scanner.next();
 				banco.deposito(numeroConta, valor, descricao);
 			}
