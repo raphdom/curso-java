@@ -9,7 +9,7 @@ package com.cursojava.raphael.exercicio9;
  */
 public class Funcionario {
 	
-	String nome;
+	public String nome;
 	String departamento;
 	double ordenado;
 	String dataEntrada;
